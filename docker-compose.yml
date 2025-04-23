@@ -9,4 +9,11 @@ services:
       - ./db:/app/db
     environment:
       - NODE_ENV=production
-    restart: unless-stopped 
+      - PORT=3001
+    restart: unless-stopped
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge 

@@ -7,7 +7,7 @@ COPY package*.json ./
 COPY client/package*.json ./client/
 
 # Install dependencies
-RUN npm install
+RUN npm install --production
 RUN cd client && npm install
 
 # Copy the rest of the application
