@@ -1,6 +1,6 @@
-# Deloitte Time Tracking App
+# Time Tracking App
 
-A time-tracking application to report and monitor work hours, split between client hours and general hours, using Deloitte's 28-day period system.
+A time-tracking application to report and monitor work hours, split between client hours and general hours, using 28-day period system.
 
 ## Features
 
@@ -45,7 +45,3 @@ A time-tracking application to report and monitor work hours, split between clie
 ## Database
 
 The application uses SQLite for data storage. The database file will be created automatically when you first run the application.
-
-## License
-
-MIT 
